@@ -9,7 +9,6 @@ before_install:
     - pip install coveralls
 
 script:
-    - python setup.py install
     - py.test
 
 after_success:
